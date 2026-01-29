@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Genesis · Soulmark Treasure Game</title>
+  <link rel="stylesheet" href="./style.css?v=4" />
+  <link rel="icon" type="image/png" href="../favicon.png" />
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="d10fb6bd-7f9c-4ab3-807a-49c0a8b61153"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="left">
+        <a class="back" href="../">← volver</a>
+        <h1>Genesis de Soulmark Treasure Game</h1>
+        <div class="sub">Bloque 0 · Evidencia · Archivos fuente · Verificación local</div>
+      </div>
+      <div class="right">
+        <div class="pill">v1.0 · 29/01/2026</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>¿Qué es esto?</h2>
+        <p class="intro">
+          <b>Soulmark Treasure Game</b> sucede en el mundo real y en internet al mismo tiempo.
+          Se gana por <b>intuición humana, interpretación y acción en la realidad</b>.
+          No tiene final, pero sí checkpoints verificables.
+        </p>
+        <p style="color: aquamarine;">
+          Es la respuesta de SoulMark a la imposibilidad actual de Verificación humana a causa de la Inteligencia Artificial.
+        </p>
+
+      </section>
+      <section>
+        <aside class="card">
+          <div><strong>Acta Cero (resumen):</strong></div>
+          <ul>
+            <li>No es inversión, apuesta ni promesa de ganancia.</li>
+            <li>Identidad pseudónima. Sin biometría, sin captcha.</li>
+            <li>Verificabilidad independiente como regla madre.</li>
+            <li>Ledger auditable y redundancia mínima cuádruple.</li>
+          </ul>
+        </aside>
+      </section>
+
+    </div>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Genesis Hash</h2>
+        <div id="hashBox" class="mono">19xLVxMCyZhGVTFUpB9LdnZYMpzDti867Y</div>
+        <p class="muted">
+          El hash Génesis también existe como <a style="color: red;" href="https://blockchair.com/bitcoin/address/19xLVxMCyZhGVTFUpB9LdnZYMpzDti867Y" target="_blank">dirección Bitcoin</a> y los fondos <span style="color: red;">están perdidos e inaccesibles</span> en la blockchain porque, por accidente, no fue guardada la clave privada en el año 2020. Sin embargo ese olvido convierte a la prueba física (el billete) en un elemento artístico, con respaldo <b><i  class="tooltip" data-tip="✨🧭">NFT</i></b>, que será el premio del ganador de la primera fase.
+        </p>
+        <p>
+          <a href="./genesis/genesis.jpg" target="_blank" rel="noopener">
+            <img src="../genesis/thumbs/genesis_thumb.jpg" alt="Billete (frente)" style="width:100%; border-radius:12px; margin:12px 0; display:block;">
+          </a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Bloque 0 (genesis.json)</h2>
+        <pre id="jsonBox" class="mono">
+  {
+    "block": 0,
+    "event_type": "GENESIS",
+    "statement": "The SoulMark treasure game exists.",
+    "timestamp": "2026-01-29",
+    "prev_hash": "null",
+    "hash": "19xLVxMCyZhGVTFUpB9LdnZYMpzDti867Y"
+  }
+        </pre>
+
+        <div class="hr"></div>
+
+        <h3>Bitcoin Address + Statement (PDF)</h3>
+        <div class="row">
+          
+        </div>
+        <div class="row">
+          <b>Address:</b> 19xLVxMCyZhGVTFUpB9LdnZYMpzDti867Y 
+        </div>
+        <div class="row">
+          Este address contiene el balance inicial del Genesis del Soulmark Treasure Game.
+        </div>
+
+        <div class="row">
+          
+        </div>
+
+        <div class="row">
+          <b>Balance inicial:</b> + 0.00168883 BTC <span style="color: green;">~ $40 USD el día 20 Dec 2020 04:39:23 UTC</span><br>
+        </div>
+        <div class="row">      
+          <a class="btn" target="_blank" href="https://blockchair.com/bitcoin/address/19xLVxMCyZhGVTFUpB9LdnZYMpzDti867Y">https://blockchair.com/bitcoin/address/19xLVxMCyZhGVTFUpB9LdnZYMpzDti867Y</a>
+          <a class="btn" target="_blank" href="./ADDRESS-STATEMENT.pdf">abrir ADDRESS-STATEMENT.pdf del hash Génesis el día 0</a>
+        </div>
+        <div class="row">
+          <div class="small" style="color: aquamarine;">El resto de los bloques no se explica: se <b><i class="tooltip" data-tip="✨🧭">descubren</i></b>
+ con ingenio humano.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Evidencia</h2>
+      <p class="muted">
+        Fotografías del objeto físico (billete).
+      </p>
+
+      <div class="gallery" id="gallery"></div>
+
+    </section>
+
+    <section class="card">
+      <h2>Principio de redundancia</h2>
+      <p class="muted">
+        El Genesis existe en al menos 4 soportes (2 digitales + 2 físicos). Esta página es solo una de esas copias.
+      </p>
+
+      <div class="row">
+        <span class="tag">2x Digital</span>
+        <span class="tag">2x Físico</span>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="line"></div>
+      <div class="muted">The SoulMark treasure game exists. The rest is <span class="tooltip" data-tip="✨🧭"><b><i>discovered</i></b></span>.</div>
+    </footer>
+  </div>
+
+  <script src="./app.js?v=6"></script>
+</body>
+</html>
+
